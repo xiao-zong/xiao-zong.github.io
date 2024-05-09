@@ -11,5 +11,11 @@ Currently, I'm a research fellow in Division of Mathematical Sciences, [School o
 
 
 
-#Research Interests
+Research Interests
+===========================
 Distributional approximations in probability theory, Stein’s method, Random graph theory, Point process;
+
+My publications can be found on [Google Scholar](https://scholar.google.com/citations?user=en_NRKkAAAAJ&hl=en&oi=ao).
+
+
+
