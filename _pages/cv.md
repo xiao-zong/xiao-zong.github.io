@@ -26,22 +26,7 @@ Work experience
   * Supervisor: Dr. Liuhua Peng
 
 * 2018 -- 2021 : Casual Tutor
-  * School of Mathematics and Statistics, The University of Melbourne
-  * MAST20005 \textit{Statistics} in Semester 2, 2021
-  * MAST30020 \textit{Probability for Inference} in Semester 1, 2020 \& 2021
-  * ACTL30005 \textit{Models for Insurance and Finance}[^subject of Centre for Actuarial Studies] in Semester 2, 2019
-  * MAST20004 \textit{Probability} in Semester 1 \& 2, 2019 \& 2020
-  * MAST30001 \textit{Stochastic Modelling} in Semester 2, 2018
-  * MAST20006 \textit{Probability for Statistics} in Semester 1, 2018
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+  * The University of Melbourne
 
 Publications
 ======
@@ -57,10 +42,17 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Tutorial 
+* School of Mathematics and Statistics, The University of Melbourne
+  * MAST20005 *Statistics* in Semester 2, 2021
+  * MAST30020 *Probability for Inference* in Semester 1, 2020 \& 2021
+  * MAST20004 *Probability* in Semester 1 \& 2, 2019 \& 2020
+  * MAST30001 *Stochastic Modelling* in Semester 2, 2018
+  * MAST20006 *Probability for Statistics* in Semester 1, 2018
+* Centre for Actuarial Studies, The University of Melbourne
+  * ACTL30005 *Models for Insurance and Finance* in Semester 2, 2019
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Chairman, _Mathematical Modelling Association_
+  * Hunan University, 2012 -- 2013
