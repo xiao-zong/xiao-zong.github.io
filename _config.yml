@@ -21,13 +21,13 @@ repository               : "xiao-zong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  # avatar           : "profile.png"
   name             : "Qingwei Liu"
-  pronouns         : # example: "she/her"  
+  pronouns         : "He/him" # example: "she/her"  
   bio              : "Research Fellow in SPMS, NTU."
-  location         : "Earth"
+  location         : "SG"
   employer         : "Nanyang Technological University"
-  uri              : # URL
+  # uri              : # URL
   email            : "qingwei.liu@ntu.edu.sg" 
 
   # Academic websites
