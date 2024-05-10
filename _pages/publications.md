@@ -13,7 +13,7 @@ author_profile: true
   * (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020). [PDF](../_publications/on_moderate_deviations_in_poisson_approximation.pdf)
 
 ## Proceedings
-  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021* __624–-633__. (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
+  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021*, 624–-633, (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
 
 ## Submitted
   * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model.
