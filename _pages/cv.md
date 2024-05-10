@@ -32,16 +32,19 @@ Publications
 ======
 
 ## Submitted
-    * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145) <!--{arXiv.2301.12145} -->
-    * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745) <!--{arXiv:2312.12745} -->
-    * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. 
+  
+  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145) <!--{arXiv.2301.12145} -->
+  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745) <!--{arXiv:2312.12745} -->
+  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. 
 
-## Journal articles 
-     2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* _27_: 1--13, (2022). 
-     1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* _57_: 1005--1027, (2020).
+## Journal articles
+  
+  2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* _27_: 1--13, (2022). 
+  1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* _57_: 1005--1027, (2020).
 
 ## Proceedings
-   * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR'21*. [DOI](https://doi.org/10.1145/3404835.3462834)
+  
+  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR'21*. [DOI](https://doi.org/10.1145/3404835.3462834)
   
 Talks
 ======
