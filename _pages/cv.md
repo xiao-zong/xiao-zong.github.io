@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Probability Theory, The University of Melbourne, 2021.
-* M.S. in Probability Theory and Mathematical Statistics, University of Science and Technology of China, 2017.
+* __Ph.D__ in Probability Theory, (Aug 2017 -- Oct 2021), The University of Melbourne, Australia, under supervision of Prof. Aihua Xia.
+* M.S. in Probability Theory and Mathematical Statistics, (Sep 2015 -- Jun 2017), University of Science and Technology of China, China, under supervision of Prof. Sen Hu.
 * B.S. in Mathematics and Applied Mathematics, Hunan University, 2015.
 
 Work experience
