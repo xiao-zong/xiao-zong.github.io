@@ -1,12 +1,11 @@
----
-title: "Paper Title Number 1"
-collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
+## Journal articles
+  * (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). [PDF](../_publications/22-ECP462.pdf)
+  * (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020). [PDF](../_publications/on_moderate_deviations_in_poisson_approximation.pdf)
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+## Proceedings
+  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021*: 624–-633, (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
+
+## Submitted
+  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model.
+  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745)
+  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145)
