@@ -41,8 +41,8 @@ Publications
 
 ## Journal articles
   
-  2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* _27_: 1--13, (2022). 
-  1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* _57_: 1005--1027, (2020).
+  2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). 
+  1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020).
 
 ## Proceedings
   
