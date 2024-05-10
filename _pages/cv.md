@@ -30,6 +30,7 @@ Work experience
 
 Publications
 ======
+
 ## Submitted
     * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145) <!--{arXiv.2301.12145} -->
     * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745) <!--{arXiv:2312.12745} -->
