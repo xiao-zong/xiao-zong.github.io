@@ -21,7 +21,7 @@ repository               : "xiao-zong.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  # avatar           : "profile.png"
+  avatar           : "south_wharf2022.png"
   name             : "Qingwei Liu"
   pronouns         : "He/him" # example: "she/her"  
   bio              : "Research Fellow in SPMS, NTU."
