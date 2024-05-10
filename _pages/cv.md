@@ -12,7 +12,7 @@ redirect_from:
 Education
 ======
 * Ph.D in Probability Theory, The University of Melbourne, 2021.
-* M.S. in Probability Theory and Mathematical Statistics, University of Science and Technology, 2017.
+* M.S. in Probability Theory and Mathematical Statistics, University of Science and Technology of China, 2017.
 * B.S. in Mathematics and Applied Mathematics, Hunan University, 2015.
 
 Work experience
@@ -30,15 +30,26 @@ Work experience
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  
+   ## Submitted
+  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145) <!--{arXiv.2301.12145} -->
+  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745) <!--{arXiv:2312.12745} -->
+  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. 
+
+   ## Journal articles 
+   2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* _27_: 1--13, (2022). 
+   1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* _57_: 1005--1027, (2020).
+
+   ## Proceedings
+   * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR'21*. [DOI](https://doi.org/10.1145/3404835.3462834)
   
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+* NTU-Sorbonne Workshop, 19-21 February, 2024, Singapore.
+* IMS Asia Pacific Rim Meeting 2024, 4-7 January, 2024, Melbourne, Australia. (Invited talk)
+* Bernoulli-IMS One World Symposium 2020, 24-28 August, 2020, Online.
+* 3rd Victorian Research Students’ Meeting in Probability and Statistics, 2 October, 2019, Melbourne, Australia.
+* 20th INFORMS Applied Probability Society conference, 3-5 July, 2019, Brisbane, Australia.
   
 Teaching
 ======
