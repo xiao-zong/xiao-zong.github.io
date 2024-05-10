@@ -12,7 +12,7 @@ title                    : "Qingwei Liu's Homepage"
 title_separator          : "-"
 name                     : &name "Qingwei Liu"
 description              : &description "personal description"
-url                      : "https://www.qingweiliu.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://xiao-zong.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 # baseurl                  : "http://www.qingweiliu.com" # the subpath of your site, e.g. "/blog"
 repository               : "xiao-zong.github.io"
 
