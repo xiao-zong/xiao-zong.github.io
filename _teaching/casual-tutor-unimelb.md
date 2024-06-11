@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate courses"
 permalink: /teaching/2018-2021
 venue: "The University of Melbourne, School of Mathematics and Statistics"
-date: 2018-2021
+date: 2021
 location: "Melbourne, Australia"
 ---
 
