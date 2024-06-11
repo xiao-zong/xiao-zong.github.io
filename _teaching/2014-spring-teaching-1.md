@@ -1,20 +1,29 @@
 ---
-title: "Teaching experience 1"
+title: "Casual Tutor"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
-location: "City, Country"
+type: "Undergraduate courses"
+permalink: /teaching/2018-2021
+venue: "The University of Melbourne, School of Mathematics and Statistics"
+date: 2018-2021
+location: "Melbourne, Australia"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
 
-Heading 1
+
+MAST20005 Statistics in Semester 2, 2021
 ======
 
-Heading 2
+MAST30020 Probability for Inference in Semester 1, 2020 & 2021
 ======
 
-Heading 3
+ACTL300051 Models for Insurance and Finance in Semester 2, 2019
+======
+
+MAST20004 Probability in Semester 1&2, 2019 & 2020
+======
+
+MAST30001 Stochastic Modelling in Semester 2, 2018
+======
+
+MAST20006 Probability for Statistics in Semester 1, 2018
 ======
