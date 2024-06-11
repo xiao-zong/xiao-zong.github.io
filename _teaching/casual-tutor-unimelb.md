@@ -2,7 +2,7 @@
 title: "Casual Tutor"
 collection: teaching
 type: "Undergraduate courses"
-permalink: /teaching/2018-2021
+permalink: /teaching/casual-tutor-unimelb
 venue: "The University of Melbourne, School of Mathematics and Statistics"
 date: 2021
 location: "Melbourne, Australia"
