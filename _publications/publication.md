@@ -1,5 +1,5 @@
 ## Journal articles
-  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. *Bernoulli* __30__: 3224-3250, (2024). [DOI](https://doi.org/10.3150/23-BEJ1712)
+  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. *Bernoulli* __30__: 3224--3250, (2024). [DOI](https://doi.org/10.3150/23-BEJ1712)
   * (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). [PDF](../_publications/22-ECP462.pdf)
   * (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020). [PDF](../_publications/on_moderate_deviations_in_poisson_approximation.pdf)
 
