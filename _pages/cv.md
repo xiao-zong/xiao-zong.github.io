@@ -19,6 +19,9 @@ Education
 
 Work experience
 ======
+* Jul 2024 --  : Visiting Fellow
+  * National University of Singapore
+
 * Jan 2022 -- Jun 2024 : Research Fellow
   * Nanyang Technological University 
   * Supervisor: Prof. Nicolas Privault
@@ -29,24 +32,6 @@ Work experience
 
 * 2018 -- 2021 : Casual Tutor
   * The University of Melbourne
-
-Publications
-======
-
-## Submitted
-  
-  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. [arXiv](https://arxiv.org/abs/2301.12145) <!--{arXiv.2301.12145} -->
-  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745) <!--{arXiv:2312.12745} -->
-  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. 
-
-## Journal articles
-  
-  2. (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). 
-  1. (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020).
-
-## Proceedings
-  
-  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR'21*. [DOI](https://doi.org/10.1145/3404835.3462834)
   
 Talks
 ======
@@ -55,18 +40,6 @@ Talks
 * Bernoulli-IMS One World Symposium 2020, 24-28 August, 2020, Online.
 * 3rd Victorian Research Students’ Meeting in Probability and Statistics, 2 October, 2019, Melbourne, Australia.
 * 20th INFORMS Applied Probability Society conference, 3-5 July, 2019, Brisbane, Australia.
-  
-Teaching
-======
-## Tutorial 
-* School of Mathematics and Statistics, The University of Melbourne
-  * MAST20005 *Statistics* in Semester 2, 2021
-  * MAST30020 *Probability for Inference* in Semester 1, 2020 & 2021
-  * MAST20004 *Probability* in Semester 1 & 2, 2019 & 2020
-  * MAST30001 *Stochastic Modelling* in Semester 2, 2018
-  * MAST20006 *Probability for Statistics* in Semester 1, 2018
-* Centre for Actuarial Studies, The University of Melbourne
-  * ACTL30005 *Models for Insurance and Finance* in Semester 2, 2019
   
 Service and leadership
 ======
