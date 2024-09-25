@@ -45,7 +45,7 @@ redirect_from:
   <p><strong>Expected Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
   {% if publication.doi %}
-  <p><a href="{{ publication.doi }}">DOI: {{ publication.doi }}</a></p>
+  <p><strong>DOI:</strong> {{ publication.doi }}</p>
   {% endif %}
   <hr>
   {% endif %}
@@ -61,7 +61,7 @@ redirect_from:
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
   {% if publication.doi %}
-  <p><a href="{{ publication.doi }}">DOI: {{ publication.doi }}</a></p>
+  <p><strong>DOI:</strong> {{ publication.doi }}</p>
   {% endif %}
   <hr>
   {% endif %}
@@ -78,11 +78,12 @@ redirect_from:
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
   {% if publication.doi %}
-  <p><a href="{{ publication.doi }}">DOI: {{ publication.doi }}</a></p>
+  <p><strong>DOI:</strong> {{ publication.doi }}</p>
   {% endif %}
   <hr>
   {% endif %}
 {% endfor %}
+
 
 
   
