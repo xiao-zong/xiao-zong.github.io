@@ -9,8 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-# Curriculum Vitae
-
 ## Education
 
 * __Ph.D__ in Probability Theory, Aug 2017 -- Oct 2021, The University of Melbourne, Australia.
