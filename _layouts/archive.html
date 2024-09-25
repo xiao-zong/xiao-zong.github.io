@@ -19,6 +19,22 @@ layout: default
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
+
+    <!-- Loop through the teaching collection -->
+    <ul>
+      {% for teaching in site.teaching %}
+        <li>
+          <h2>{{ teaching.title }}</h2>
+          <p><strong>Institution:</strong> {{ teaching.institution }}</p>
+          <p><strong>Position:</strong> {{ teaching.position }}</p>
+          <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
+          <p>{{ teaching.description }}</p>
+          <a href="{{ teaching.url }}">Read more</a>
+        </li>
+        <hr>
+      {% endfor %}
+    </ul>
+    
     {{ content }}
   </div>
 </div>
