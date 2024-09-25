@@ -2,39 +2,43 @@
 layout: default
 ---
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
+{% if page.url contains 'teaching' %}
+  <h1>Teaching Experience</h1>
+  <ul>
+    {% for teaching in site.teaching %}
+      <li>
+        <h2>{{ teaching.title }}</h2>
+        <p><strong>Institution:</strong> {{ teaching.institution }}</p>
+        <p><strong>Position:</strong> {{ teaching.position }}</p>
+        <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
+        <p>{{ teaching.description }}</p>
+        {{ teaching.content }}
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
+{% elsif page.url contains 'publications' %}
+  <h1>Publications</h1>
+  <ul>
+    {% for publication in site.publications %}
+      <li>
+        <h2>{{ publication.title }}</h2>
+        <p><strong>Authors:</strong> {{ publication.authors }}</p>
+        <p><strong>Journal:</strong> {{ publication.journal }}</p>
+        <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
+{% elsif page.url contains 'cv' %}
+  <h1>Curriculum Vitae</h1>
+  <ul>
+    {% for cv in site.cv %}
+      <li>
+        <h2>{{ cv.title }}</h2>
+        {{ cv.content }}
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
 {% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
-<div id="main" role="main">
-  {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
-
-    <!-- Loop through the teaching collection -->
-    <ul>
-      {% for teaching in site.teaching %}
-        <li>
-          <h2>{{ teaching.title }}</h2>
-          <p><strong>Institution:</strong> {{ teaching.institution }}</p>
-          <p><strong>Position:</strong> {{ teaching.position }}</p>
-          <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
-          <p>{{ teaching.description }}</p>
-          <a href="{{ teaching.url }}">Read more</a>
-        </li>
-        <hr>
-      {% endfor %}
-    </ul>
-    
-    {{ content }}
-  </div>
-</div>
