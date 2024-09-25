@@ -41,7 +41,7 @@ redirect_from:
   {% if publication.tags contains "InPress" %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
-  <p><em>To be published in:</em> {{ publication.journal }}</p>
+  <p>To be published in: <em>{{ publication.journal }}</em></p>
   <p><strong>Expected Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
   {% if publication.doi %}
@@ -57,7 +57,7 @@ redirect_from:
   {% if publication.tags contains "Journal" %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
-  <p><em>Published in:</em> {{ publication.journal }}</p>
+  <p>Published in: <em>{{ publication.journal }}</em></p>
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
   {% if publication.doi %}
@@ -73,7 +73,7 @@ redirect_from:
   {% if publication.tags contains "Conference" %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
-  <p><em>Presented at:</em> {{ publication.conference }}</p>
+  <p>Presented at: <em>{{ publication.conference }}</em></p>
   <p><strong>Venue:</strong> {{ publication.venue }}</p>
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
   <p><a href="{{ publication.link }}">Link to full text</a></p>
@@ -83,9 +83,6 @@ redirect_from:
   <hr>
   {% endif %}
 {% endfor %}
-
-
-
   
 ## Talks
 ======
