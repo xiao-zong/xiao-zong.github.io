@@ -35,15 +35,34 @@ redirect_from:
 
 ## Publications
 
+### Journal Publications
+
 {% for publication in site.publications %}
-### {{ publication.title }}
+  {% if publication.tags contains "Journal" %}
+  ### {{ publication.title }}
 
-**Authors**: {{ publication.authors }}  
-**Journal**: {{ publication.journal }}  
-**DOI**: [{{ publication.doi }}]({{ publication.doi }})  
-[Link to full text]({{ publication.link }})
+  **Authors**: {{ publication.authors }}  
+  **Journal**: {{ publication.journal }}  
+  **DOI**: [{{ publication.doi }}]({{ publication.doi }})  
+  [Link to full text]({{ publication.link }})
 
----
+  ---
+  {% endif %}
+{% endfor %}
+
+### Conference Papers
+
+{% for publication in site.publications %}
+  {% if publication.tags contains "Conference" %}
+  ### {{ publication.title }}
+
+  **Authors**: {{ publication.authors }}  
+  **Conference**: {{ publication.conference }}  
+  **Venue**: {{ publication.venue }}  
+  [Link to full text]({{ publication.link }})
+
+  ---
+  {% endif %}
 {% endfor %}
 
   
