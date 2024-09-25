@@ -1,7 +1,7 @@
 ---
 title: "Normal approximation of subgraphs counts in the random-connection model"
 authors: "Q. Liu and N. Privault"
-# date: 2024-11-
+date: 2024-07-30
 journal: "Bernoulli"
 doi: "DOI: 10.3150/23-BEJ1712"
 # abstract: "This paper presents new methodologies for estimating Engel curves using nonparametric regression techniques..."
