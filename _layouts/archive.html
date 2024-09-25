@@ -2,43 +2,49 @@
 layout: default
 ---
 
-{% if page.url contains 'teaching' %}
-  <h1>Teaching Experience</h1>
-  <ul>
-    {% for teaching in site.teaching %}
-      <li>
-        <h2>{{ teaching.title }}</h2>
-        <p><strong>Institution:</strong> {{ teaching.institution }}</p>
-        <p><strong>Position:</strong> {{ teaching.position }}</p>
-        <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
-        <p>{{ teaching.description }}</p>
-        {{ teaching.content }}
-      </li>
-      <hr>
-    {% endfor %}
-  </ul>
-{% elsif page.url contains 'publications' %}
-  <h1>Publications</h1>
-  <ul>
-    {% for publication in site.publications %}
-      <li>
-        <h2>{{ publication.title }}</h2>
-        <p><strong>Authors:</strong> {{ publication.authors }}</p>
-        <p><strong>Journal:</strong> {{ publication.journal }}</p>
-        <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
-      </li>
-      <hr>
-    {% endfor %}
-  </ul>
-{% elsif page.url contains 'cv' %}
-  <h1>Curriculum Vitae</h1>
-  <ul>
-    {% for cv in site.cv %}
-      <li>
-        <h2>{{ cv.title }}</h2>
-        {{ cv.content }}
-      </li>
-      <hr>
-    {% endfor %}
-  </ul>
-{% endif %}
+<div id="main" role="main">
+  {% include sidebar.html %} <!-- Include the sidebar -->
+
+  <div class="archive">
+    {% if page.url contains 'teaching' %}
+      <h1>Teaching Experience</h1>
+      <ul>
+        {% for teaching in site.teaching %}
+          <li>
+            <h2>{{ teaching.title }}</h2>
+            <p><strong>Institution:</strong> {{ teaching.institution }}</p>
+            <p><strong>Position:</strong> {{ teaching.position }}</p>
+            <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
+            <p>{{ teaching.description }}</p>
+            {{ teaching.content }}
+          </li>
+          <hr>
+        {% endfor %}
+      </ul>
+    {% elsif page.url contains 'publications' %}
+      <h1>Publications</h1>
+      <ul>
+        {% for publication in site.publications %}
+          <li>
+            <h2>{{ publication.title }}</h2>
+            <p><strong>Authors:</strong> {{ publication.authors }}</p>
+            <p><strong>Journal:</strong> {{ publication.journal }}</p>
+            <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
+          </li>
+          <hr>
+        {% endfor %}
+      </ul>
+    {% elsif page.url contains 'cv' %}
+      <h1>Curriculum Vitae</h1>
+      <ul>
+        {% for cv in site.cv %}
+          <li>
+            <h2>{{ cv.title }}</h2>
+            {{ cv.content }}
+          </li>
+          <hr>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+</div>
