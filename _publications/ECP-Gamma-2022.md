@@ -1,7 +1,7 @@
 ---
 title: "Geometric sums, size biasing and zero biasing"
 authors: "Q. Liu and A. Xia"
-# date: 2022-03-21
+date: 2022-03-21
 journal: "Electron. Commun. Probab."
 doi: "DOI: 10.1214/22-ECP462"
 # abstract: "This paper presents new methodologies for estimating Engel curves using nonparametric regression techniques..."
