@@ -6,5 +6,5 @@ journal: "SIGIR"
 doi: "doi.org/10.1145/3404835.3462834"
 # abstract: "This paper presents new methodologies for estimating Engel curves using nonparametric regression techniques..."
 link: "https://dl.acm.org/doi/10.1145/3404835.3462834"
-tags: [Graph Convolutional, Network]
+tags: [Conference]
 ---
