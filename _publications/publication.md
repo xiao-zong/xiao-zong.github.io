@@ -4,21 +4,47 @@ title: "Publications"
 permalink: /publications/
 ---
 
+# Publications
+
+## Journal Articles
 {% for publication in site.publications %}
-  ### {{ publication.title }}
-
-  **Authors**: {{ publication.authors }}
-
   {% if publication.tags contains "Journal" %}
-  **Published in**: {{ publication.journal }}
-  {% elsif publication.tags contains "Conference" %}
-  **Presented at**: {{ publication.conference }}  
-  **Venue**: {{ publication.venue }}
-  {% endif %}
-
-  **Date**: {{ publication.date | date: "%Y" }}  
-  [Link to full text]({{ publication.link }})
-
+  - **{{ publication.title }}**  
+    *{{ publication.authors }}*  
+    Published in: *{{ publication.journal }}*  
+    **Year**: {{ publication.date | date: "%Y" }}  
+    [Link to full text]({{ publication.link }})
+    {% if publication.doi %}  
+    [DOI: {{ publication.doi }}]({{ publication.doi }})
+    {% endif %}
   ---
+  {% endif %}
 {% endfor %}
 
+## Conference Papers
+{% for publication in site.publications %}
+  {% if publication.tags contains "Conference" %}
+  - **{{ publication.title }}**  
+    *{{ publication.authors }}*  
+    Presented at: *{{ publication.conference }}*  
+    **Venue**: {{ publication.venue }}  
+    **Year**: {{ publication.date | date: "%Y" }}  
+    [Link to full text]({{ publication.link }})
+    {% if publication.doi %}  
+    [DOI: {{ publication.doi }}]({{ publication.doi }})
+    {% endif %}
+  ---
+  {% endif %}
+{% endfor %}
+
+## In Press
+{% for publication in site.publications %}
+  {% if publication.tags contains "InPress" %}
+  - **{{ publication.title }}**  
+    *{{ publication.authors }}*  
+    To be published in: *{{ publication.journal }}*  
+    **Expected Year**: {{ publication.date | date: "%Y" }}  
+    [Link to full text]({{ publication.link }})
+  ---
+  {% endif %}
+{% endfor %}
