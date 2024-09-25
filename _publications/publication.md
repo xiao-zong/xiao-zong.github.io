@@ -1,12 +1,23 @@
-## Journal articles
-  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. *Bernoulli* __30__: 3224--3250, (2024). [DOI](https://doi.org/10.3150/23-BEJ1712)
-  * (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). [PDF](../_publications/22-ECP462.pdf)
-  * (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020). [PDF](../_publications/on_moderate_deviations_in_poisson_approximation.pdf)
+---
+layout: page
+title: "Publications"
+permalink: /publications/
+---
 
-## Proceedings
-  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021*: 624–-633, (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
+{% for publication in site.publications %}
+  ### {{ publication.title }}
 
-## Submitted
-  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model.
-  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745)
-  
+  **Authors**: {{ publication.authors }}
+
+  {% if publication.tags contains "Journal" %}
+  **Published in**: {{ publication.journal }}
+  {% elsif publication.tags contains "Conference" %}
+  **Presented at**: {{ publication.conference }}  
+  **Venue**: {{ publication.venue }}
+  {% endif %}
+
+  **Date**: {{ publication.date | date: "%Y" }}  
+  [Link to full text]({{ publication.link }})
+
+  ---
+{% endfor %}
