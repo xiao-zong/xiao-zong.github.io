@@ -1,7 +1,7 @@
 ---
 title: "Tutorial Experience"
 institution: "The University of Melbourne, School of Mathematics and Statistics"
-position: "Casual Tutor"
+position: "Tutor"
 collection: teaching
 permalink: /teaching/
 description: "Overview of my tutorial experiences across multiple subjects, including Statistics, Probability, and more."
