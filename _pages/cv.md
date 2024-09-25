@@ -9,15 +9,16 @@ redirect_from:
 
 {% include base_path %}
 
+
 # Education
-======
+
 * __Ph.D__ in Probability Theory, Aug 2017 -- Oct 2021, The University of Melbourne, Australia.
   * Under supervision of [Prof. Aihua Xia](https://researchers.ms.unimelb.edu.au/~aihuaxia@unimelb/)
 * M.S. in Probability Theory and Mathematical Statistics, Sep 2015 -- Jun 2017, University of Science and Technology of China, China.
 * B.S. in Mathematics and Applied Mathematics, Sep 2011 -- Jun 2015, Hunan University, China.
 
 # Work experience
-======
+
 * Jul 2024 --  : Visiting Fellow
   * National University of Singapore
 
@@ -84,14 +85,28 @@ redirect_from:
 {% endfor %}
   
 # Talks
-======
+
 * NTU-Sorbonne Workshop, 19-21 February, 2024, Singapore.
 * IMS Asia Pacific Rim Meeting 2024, 4-7 January, 2024, Melbourne, Australia. (Invited talk)
 * Bernoulli-IMS One World Symposium 2020, 24-28 August, 2020, Online.
 * 3rd Victorian Research Students’ Meeting in Probability and Statistics, 2 October, 2019, Melbourne, Australia.
 * 20th INFORMS Applied Probability Society conference, 3-5 July, 2019, Brisbane, Australia.
+
+## Teaching Experience
+
+{% for teaching in site.teaching %}
+  <h3>{{ teaching.title }}</h3>
+  <p><strong>Institution:</strong> {{ teaching.institution }}</p>
+  <p><strong>Position:</strong> {{ teaching.position }}</p>
+  <p><strong>Dates:</strong> {{ teaching.date | date: "%Y" }}{% if teaching.end_date %} - {{ teaching.end_date | date: "%Y" }}{% endif %}</p>
+  <p>{{ teaching.description }}</p>
+
+  {{ teaching.content }} <!-- Display the detailed content of the teaching or tutorial experience -->
+
+  <hr>
+{% endfor %}
   
 # Service and leadership
-======
+
 * Chairman, _Mathematical Modelling Association_
   * Hunan University, 2012 -- 2013
