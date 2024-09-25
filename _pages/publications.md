@@ -23,5 +23,5 @@ author_profile: true
   * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021*: 624–-633, (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
 
 ## Submitted
-  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model.
-  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. [arXiv](https://arxiv.org/abs/2312.12745)
+  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. [arXiv](https://arxiv.org/abs/2409.16222)
+  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. To appear in *Probab. Engrg. Inform. Sci.* [arXiv](https://arxiv.org/abs/2312.12745)
