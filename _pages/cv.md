@@ -14,7 +14,6 @@ Education
 * __Ph.D__ in Probability Theory, Aug 2017 -- Oct 2021, The University of Melbourne, Australia.
   * Under supervision of [Prof. Aihua Xia](https://researchers.ms.unimelb.edu.au/~aihuaxia@unimelb/)
 * M.S. in Probability Theory and Mathematical Statistics, Sep 2015 -- Jun 2017, University of Science and Technology of China, China.
-  * Under supervision of Prof. Sen Hu
 * B.S. in Mathematics and Applied Mathematics, Sep 2011 -- Jun 2015, Hunan University, China.
 
 Work experience
