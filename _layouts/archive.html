@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="main" role="main">
-  {% include sidebar.html %} <!-- Include the sidebar -->
+  {% include sidebar.html %} <!-- Ensure the sidebar is included -->
 
   <div class="archive">
     {% if page.url contains 'teaching' %}
@@ -36,15 +36,10 @@ layout: default
       </ul>
     {% elsif page.url contains 'cv' %}
       <h1>Curriculum Vitae</h1>
-      <ul>
-        {% for cv in site.cv %}
-          <li>
-            <h2>{{ cv.title }}</h2>
-            {{ cv.content }}
-          </li>
-          <hr>
-        {% endfor %}
-      </ul>
+      <!-- Instead of looping through a collection, directly display the content -->
+      <div class="cv-content">
+        {{ content }}
+      </div>
     {% endif %}
   </div>
 </div>
