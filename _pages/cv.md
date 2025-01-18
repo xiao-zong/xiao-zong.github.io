@@ -79,6 +79,7 @@ redirect_from:
 
 ## Talks
 
+* Joint Meeting of the NZMS, AustMS and AMS, 9-13 December 2024, Auckland, New Zealand.
 * NTU-Sorbonne Workshop, 19-21 February 2024, Singapore.
 * IMS Asia Pacific Rim Meeting 2024, 4-7 January 2024, Melbourne, Australia. (Invited talk)
 * Bernoulli-IMS One World Symposium 2020, 24-28 August 2020, Online.
