@@ -4,6 +4,6 @@ authors: "Q. Liu and N. Privault"
 date: 2024-12-01  # Estimated publication date
 journal: "Probab. Engrg. Inform. Sci."
 tags: [InPress]
-link: "https://arxiv.org/abs/2312.12745"
-doi: "10.48550/arXiv.2312.12745"
+link: "https://arxiv.org/abs/2312.12745](https://doi.org/10.1017/S0269964824000160)"
+doi: "https://doi.org/10.1017/S0269964824000160"
 ---
