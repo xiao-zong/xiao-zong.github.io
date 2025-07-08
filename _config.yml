@@ -24,11 +24,11 @@ author:
   avatar           : "south_wharf2022.png"
   name             : "Qingwei Liu"
   pronouns         : "He/him" # example: "she/her"  
-  bio              : "Visiting Fellow in DSDS, NUS."
-  location         : "SG"
-  employer         : "National University of Singapore"
+  bio              : "Open to work."
+  location         : "Melbourne, AU"
+  employer         : "the University of Melbourne"
   # uri              : # URL
-  email            : "qingwei.liu@unimelb.edu.au" 
+  email            : "xiaozong30@gmail.com" 
 
   # Academic websites
   # arxiv            : # URL - Update with the correct link to your profile
@@ -36,7 +36,7 @@ author:
 #  impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-9485-950X"
  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-#  researchgate     : # URL
+  researchgate     : "https://www.researchgate.net/profile/Qingwei-Liu-7?ev=hdr_xprf"
 
   # Repositories and software development
 #  bitbucket        : # Username - Update with your username on the site
@@ -54,7 +54,7 @@ author:
   # goodreads        : # Username
   # google_plus      : # Username
   # keybase          : # Username
-  # instagram        : # Username
+    instagram        : "xiao_zong_zi"# Username
   # lastfm           : # Username
   linkedin         : "qingwei-liu-319666bb/"# Username
   # mastodon         : # URL
