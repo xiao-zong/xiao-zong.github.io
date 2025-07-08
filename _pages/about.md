@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Currently, I'm a visiting fellow in [Department of Statistics and Data Science](https://www.stat.nus.edu.sg), [National University of Singapore](https://nus.edu.sg). Before joining NUS, I was a research fellow in Division of Mathematical Sciences, [School of Physical and Mathematical Sciences](https://www.ntu.edu.sg/spms), [Nanyang Technological University](https://www.ntu.edu.sg), working with [Prof. Nicolas Privault](https://personal.ntu.edu.sg/nprivault/indexp.html). 
+I relocated back to Melbourne in mid-2025 and am currently open to new work opportunities. Prior to returning, I was a Visiting Fellow in [Department of Statistics and Data Science](https://www.stat.nus.edu.sg), [National University of Singapore](https://nus.edu.sg). Before that, I was a Research Fellow in Division of Mathematical Sciences, [School of Physical and Mathematical Sciences](https://www.ntu.edu.sg/spms), [Nanyang Technological University](https://www.ntu.edu.sg), working with [Prof. Nicolas Privault](https://personal.ntu.edu.sg/nprivault/indexp.html). 
 
 
 
