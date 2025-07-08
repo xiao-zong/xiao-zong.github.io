@@ -18,7 +18,7 @@ redirect_from:
 
 ## Work Experience
 
-* Jul 2024 -- Present: Visiting Fellow
+* Jul 2024 -- Jun 2025: Visiting Fellow
   * National University of Singapore
 * Jan 2022 -- Jun 2024: Research Fellow
   * Nanyang Technological University 
