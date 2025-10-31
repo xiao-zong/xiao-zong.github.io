@@ -6,22 +6,66 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="https://scholar.google.com/citations?user=en_NRKkAAAAJ&hl=en&oi=ao">my Google Scholar profile</a>.</div>
+<div class="wordwrap">
+  You can also find my articles on 
+  <a href="https://scholar.google.com/citations?user=en_NRKkAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">
+    my Google Scholar profile
+  </a>.
+</div>
 {% endif %}
 
 {% include base_path %}
 
+{% comment %}
+--------------------------------------------
+Assign publication groups (sorted by date)
+--------------------------------------------
+{% endcomment %}
+{% assign inpress = site.publications | where_exp: "item", "item.tags contains 'InPress'" | sort: "date" | reverse %}
+{% assign journals = site.publications | where_exp: "item", "item.tags contains 'Journal'" | sort: "date" | reverse %}
+{% assign conferences = site.publications | where_exp: "item", "item.tags contains 'Conference'" | sort: "date" | reverse %}
+
+---
+
+## In Press
+{% if inpress.size > 0 %}
+  {% for publication in inpress %}
+    {% include publication-entry.html publication=publication %}
+  {% endfor %}
+{% else %}
+  <p>No in-press articles at the moment.</p>
+{% endif %}
+
+---
+
+## Journal Articles
+{% if journals.size > 0 %}
+  {% for publication in journals %}
+    {% include publication-entry.html publication=publication %}
+  {% endfor %}
+{% else %}
+  <p>No journal publications available.</p>
+{% endif %}
+
+---
+
+## Conference Papers
+{% if conferences.size > 0 %}
+  {% for publication in conferences %}
+    {% include publication-entry.html publication=publication %}
+  {% endfor %}
+{% else %}
+  <p>No conference papers available.</p>
+{% endif %}
+
+---
+
+{% comment %}
+--------------------------------------------
+Optional: Show all publications (legacy style)
+--------------------------------------------
+{% endcomment %}
+### All Publications
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
-## Journal articles
-  * (with N. Privault) Normal approximation of subgraphs counts in the random-connection model. *Bernoulli* __30__: 3224--3250, (2024). [DOI](https://doi.org/10.3150/23-BEJ1712)
-  * (with A. Xia) Geometric sums, size biasing and zero biasing. *Electron. Commun. Probab.* __27__: 1--13, (2022). [PDF](../_publications/22-ECP462.pdf)
-  * (with A. Xia) On moderate deviations in Poisson approximation. *J. Appl. Probab.* __57__: 1005--1027, (2020). [PDF](../_publications/on_moderate_deviations_in_poisson_approximation.pdf)
-
-## Proceedings
-  * (with Y. Zhao, J. Qi and R. Zhang) WGCN: Graph Convolutional Networks with Weighted Structural Features. *SIGIR 2021*: 624–-633, (2021). [DOI](https://dl.acm.org/doi/10.1145/3404835.3462834)
-
-## Submitted
-  * (with N. Privault) Normal to Poisson phase transition for subgraph counting in the random-connection model. [arXiv](https://arxiv.org/abs/2409.16222)
-  * (with N. Privault) Graph connectivity with fixed endpoints in the random-connection model. To appear in *Probab. Engrg. Inform. Sci.* [arXiv](https://arxiv.org/abs/2312.12745)
