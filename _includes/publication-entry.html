@@ -1,0 +1,33 @@
+<div class="pub-entry">
+  <h3>{{ include.publication.title }}</h3>
+
+  {% if include.publication.authors %}
+  <p><strong>Authors:</strong> {{ include.publication.authors }}</p>
+  {% endif %}
+
+  {% if include.publication.journal %}
+    <p>Published in: <em>{{ include.publication.journal }}</em></p>
+  {% elsif include.publication.conference %}
+    <p>Presented at: <em>{{ include.publication.conference }}</em></p>
+  {% endif %}
+
+  {% if include.publication.venue %}
+  <p><strong>Venue:</strong> {{ include.publication.venue }}</p>
+  {% endif %}
+
+  <p><strong>Year:</strong> {{ include.publication.date | date: "%Y" }}</p>
+
+  {% if include.publication.link %}
+  <p><a href="{{ include.publication.link }}">🔗 Link to full text</a></p>
+  {% endif %}
+
+  {% if include.publication.doi %}
+  <p><strong>DOI:</strong> <a href="https://doi.org/{{ include.publication.doi }}">{{ include.publication.doi }}</a></p>
+  {% endif %}
+
+  {% if include.publication.arxiv %}
+  <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/{{ include.publication.arxiv }}">{{ include.publication.arxiv }}</a></p>
+  {% endif %}
+
+  <hr>
+</div>
