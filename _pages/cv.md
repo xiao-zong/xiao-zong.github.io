@@ -18,6 +18,8 @@ redirect_from:
 
 ## Work Experience
 
+* Sep 2025 -- : Research Assistant
+  * The University of Melbourne
 * Jul 2024 -- Jun 2025: Visiting Fellow
   * National University of Singapore
 * Jan 2022 -- Jun 2024: Research Fellow
