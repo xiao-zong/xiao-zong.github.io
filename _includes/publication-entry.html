@@ -29,5 +29,9 @@
   <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/{{ include.publication.arxiv }}">{{ include.publication.arxiv }}</a></p>
   {% endif %}
 
+  {% if include.publication.pdf %}
+  <p><a href="{{ include.publication.pdf }}" target="_blank">📄 Download PDF</a></p>
+  {% endif %}
+
   <hr>
 </div>
