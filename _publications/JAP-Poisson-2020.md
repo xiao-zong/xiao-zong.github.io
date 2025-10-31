@@ -7,4 +7,5 @@ doi: "10.1017/jpr.2020.47"
 # abstract: "This paper presents new methodologies for estimating Engel curves using nonparametric regression techniques..."
 link: "https://www.cambridge.org/core/journals/journal-of-applied-probability/article/abs/on-moderate-deviations-in-poisson-approximation/34E48F71D4584B1EA68D0DCF9A617D38"
 tags: [Journal]
+pdf: "/_publications/pdfs/on_moderate_deviations_in_poisson_approximation.pdf"
 ---
