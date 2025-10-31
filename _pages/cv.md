@@ -31,51 +31,79 @@ redirect_from:
 
 ## Publications
 
+{% comment %}
+Sort and group all publications by category (newest → oldest)
+{% endcomment %}
+{% assign inpress = site.publications | where_exp: "item", "item.tags contains 'InPress'" | sort: "date" | reverse %}
+{% assign journals = site.publications | where_exp: "item", "item.tags contains 'Journal'" | sort: "date" | reverse %}
+{% assign conferences = site.publications | where_exp: "item", "item.tags contains 'Conference'" | sort: "date" | reverse %}
+
+---
+
 ### In Press
-{% for publication in site.publications %}
-  {% if publication.tags contains "InPress" %}
+{% if inpress.size > 0 %}
+  {% for publication in inpress %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
   <p>To be published in: <em>{{ publication.journal }}</em></p>
   <p><strong>Expected Year:</strong> {{ publication.date | date: "%Y" }}</p>
-  <p><a href="{{ publication.link }}">Link to full text</a></p>
+  {% if publication.link %}
+  <p><a href="{{ publication.link }}">🔗 Link to full text</a></p>
+  {% endif %}
   {% if publication.doi %}
-  <p><strong>DOI:</strong> {{ publication.doi }}</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a></p>
   {% endif %}
   <hr>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% else %}
+  <p>No in-press articles at the moment.</p>
+{% endif %}
+
+---
 
 ### Journal Articles
-{% for publication in site.publications %}
-  {% if publication.tags contains "Journal" %}
+{% if journals.size > 0 %}
+  {% for publication in journals %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
   <p>Published in: <em>{{ publication.journal }}</em></p>
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
-  <p><a href="{{ publication.link }}">Link to full text</a></p>
+  {% if publication.link %}
+  <p><a href="{{ publication.link }}">🔗 Link to full text</a></p>
+  {% endif %}
   {% if publication.doi %}
-  <p><strong>DOI:</strong> {{ publication.doi }}</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a></p>
   {% endif %}
   <hr>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% else %}
+  <p>No journal publications available.</p>
+{% endif %}
+
+---
 
 ### Conference Papers
-{% for publication in site.publications %}
-  {% if publication.tags contains "Conference" %}
+{% if conferences.size > 0 %}
+  {% for publication in conferences %}
   <h3>{{ publication.title }}</h3>
   <p><strong>Authors:</strong> {{ publication.authors }}</p>
   <p>Presented at: <em>{{ publication.conference }}</em></p>
+  {% if publication.venue %}
   <p><strong>Venue:</strong> {{ publication.venue }}</p>
+  {% endif %}
   <p><strong>Year:</strong> {{ publication.date | date: "%Y" }}</p>
-  <p><a href="{{ publication.link }}">Link to full text</a></p>
+  {% if publication.link %}
+  <p><a href="{{ publication.link }}">🔗 Link to full text</a></p>
+  {% endif %}
   {% if publication.doi %}
-  <p><strong>DOI:</strong> {{ publication.doi }}</p>
+  <p><strong>DOI:</strong> <a href="https://doi.org/{{ publication.doi }}">{{ publication.doi }}</a></p>
   {% endif %}
   <hr>
-  {% endif %}
-{% endfor %}
+  {% endfor %}
+{% else %}
+  <p>No conference papers available.</p>
+{% endif %}
+
 
 ## Talks
 
