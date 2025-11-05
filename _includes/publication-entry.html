@@ -1,36 +1,55 @@
 <div class="pub-entry">
-  <h3>{{ include.publication.title }}</h3>
 
+  <!-- Title -->
+  <h3 class="pub-title">
+    {% if include.publication.link %}
+      <a href="{{ include.publication.link }}" target="_blank" rel="noopener">{{ include.publication.title }}</a>
+    {% else %}
+      {{ include.publication.title }}
+    {% endif %}
+
+    {% if include.publication.tags contains "InPress" %}
+      <span class="badge">In&nbsp;Press</span>
+    {% endif %}
+  </h3>
+
+  <!-- Authors -->
   {% if include.publication.authors %}
-  <p><strong>Authors:</strong> {{ include.publication.authors }}</p>
+    <p class="pub-authors">{{ include.publication.authors }}</p>
   {% endif %}
 
+  <!-- Venue / Journal -->
   {% if include.publication.journal %}
-    <p>Published in: <em>{{ include.publication.journal }}</em></p>
+    <p class="pub-venue"><em>{{ include.publication.journal }}</em></p>
   {% elsif include.publication.conference %}
-    <p>Presented at: <em>{{ include.publication.conference }}</em></p>
+    <p class="pub-venue"><em>{{ include.publication.conference }}</em></p>
+  {% elsif include.publication.venue %}
+    <p class="pub-venue"><em>{{ include.publication.venue }}</em></p>
   {% endif %}
 
-  {% if include.publication.venue %}
-  <p><strong>Venue:</strong> {{ include.publication.venue }}</p>
+  <!-- Year -->
+  {% if include.publication.date %}
+    <p class="pub-year">{{ include.publication.date | date: "%Y" }}</p>
   {% endif %}
 
-  <p><strong>Year:</strong> {{ include.publication.date | date: "%Y" }}</p>
+  <!-- Links -->
+  <p class="pub-links">
+    {% if include.publication.pdf %}
+      <a href="{{ include.publication.pdf }}" target="_blank" class="btn btn--small">[PDF]</a>
+    {% endif %}
+    {% if include.publication.doi %}
+      <a href="https://doi.org/{{ include.publication.doi }}" target="_blank" class="btn btn--small">[DOI]</a>
+    {% endif %}
+    {% if include.publication.arxiv %}
+      <a href="https://arxiv.org/abs/{{ include.publication.arxiv }}" target="_blank" class="btn btn--small">[arXiv]</a>
+    {% endif %}
+    {% if include.publication.link %}
+      <a href="{{ include.publication.link }}" target="_blank" class="btn btn--small">[Full&nbsp;Text]</a>
+    {% endif %}
+  </p>
 
-  {% if include.publication.link %}
-  <p><a href="{{ include.publication.link }}">🔗 Link to full text</a></p>
-  {% endif %}
-
-  {% if include.publication.doi %}
-  <p><strong>DOI:</strong> <a href="https://doi.org/{{ include.publication.doi }}">{{ include.publication.doi }}</a></p>
-  {% endif %}
-
-  {% if include.publication.arxiv %}
-  <p><strong>arXiv:</strong> <a href="https://arxiv.org/abs/{{ include.publication.arxiv }}">{{ include.publication.arxiv }}</a></p>
-  {% endif %}
-
-  {% if include.publication.pdf %}
-  <p><a href="{{ include.publication.pdf }}" target="_blank">📄 Download PDF</a></p>
+  {% if include.publication.excerpt %}
+    <p class="pub-excerpt">{{ include.publication.excerpt }}</p>
   {% endif %}
 
   <hr>
