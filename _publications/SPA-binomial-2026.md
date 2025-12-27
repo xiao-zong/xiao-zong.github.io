@@ -1,5 +1,5 @@
 ---
-title: "Gaussian fluctuations of generalized U -statistics and subgraph counts inbinomial random-connection model"
+title: "Gaussian fluctuations of generalized $U$-statistics and subgraph counts inbinomial random-connection model"
 authors: "Q. Liu and N. Privault"
 date: 2025-11-06
 journal: "Stochastic Processes and their Applications"
